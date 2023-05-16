@@ -1,0 +1,44 @@
+body {
+    background-color: #d30b24;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000000;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.clear-history-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#chat-history {
+    font: 1em sans-serif;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    top : 100px;
+    margin: 0 auto;
+}
+
+form {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}

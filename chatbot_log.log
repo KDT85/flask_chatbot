@@ -1,0 +1,617 @@
+2023-05-15 12:23:39,388 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-15 12:23:39,388 - [33mPress CTRL+C to quit[0m
+2023-05-15 12:23:39,389 -  * Restarting with stat
+2023-05-15 12:23:40,249 -  * Debugger is active!
+2023-05-15 12:23:40,253 -  * Debugger PIN: 109-203-584
+2023-05-15 12:24:23,361 - 127.0.0.1 - - [15/May/2023 12:24:23] "[35m[1mPOST /greet HTTP/1.1[0m" 500 -
+2023-05-15 12:24:23,717 - 127.0.0.1 - - [15/May/2023 12:24:23] "GET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-15 12:24:23,729 - 127.0.0.1 - - [15/May/2023 12:24:23] "GET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-15 12:24:23,782 - 127.0.0.1 - - [15/May/2023 12:24:23] "GET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-15 12:24:23,813 - 127.0.0.1 - - [15/May/2023 12:24:23] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-15 12:25:08,110 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:25:08,399 -  * Restarting with stat
+2023-05-15 12:25:09,472 -  * Debugger is active!
+2023-05-15 12:25:09,472 -  * Debugger PIN: 109-203-584
+2023-05-15 12:25:12,013 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:25:12,091 -  * Restarting with stat
+2023-05-15 12:25:12,911 -  * Debugger is active!
+2023-05-15 12:25:12,914 -  * Debugger PIN: 109-203-584
+2023-05-15 12:25:25,215 - 127.0.0.1 - - [15/May/2023 12:25:25] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:25:25,304 - 127.0.0.1 - - [15/May/2023 12:25:25] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:25:25,372 - 127.0.0.1 - - [15/May/2023 12:25:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:25:27,220 - 127.0.0.1 - - [15/May/2023 12:25:27] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:25:27,288 - 127.0.0.1 - - [15/May/2023 12:25:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:25:27,291 - 127.0.0.1 - - [15/May/2023 12:25:27] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:25:28,689 - 127.0.0.1 - - [15/May/2023 12:25:28] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:25:28,760 - 127.0.0.1 - - [15/May/2023 12:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:25:28,770 - 127.0.0.1 - - [15/May/2023 12:25:28] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:25:36,555 - 127.0.0.1 - - [15/May/2023 12:25:36] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:25:36,619 - 127.0.0.1 - - [15/May/2023 12:25:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:25:36,623 - 127.0.0.1 - - [15/May/2023 12:25:36] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:25:38,655 - 127.0.0.1 - - [15/May/2023 12:25:38] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:25:38,729 - 127.0.0.1 - - [15/May/2023 12:25:38] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:25:38,730 - 127.0.0.1 - - [15/May/2023 12:25:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:28:27,319 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:28:27,667 -  * Restarting with stat
+2023-05-15 12:28:28,588 -  * Debugger is active!
+2023-05-15 12:28:28,598 -  * Debugger PIN: 109-203-584
+2023-05-15 12:29:39,213 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\university_chatbot.py', reloading
+2023-05-15 12:29:39,317 -  * Restarting with stat
+2023-05-15 12:29:40,270 -  * Debugger is active!
+2023-05-15 12:29:40,270 -  * Debugger PIN: 109-203-584
+2023-05-15 12:29:44,382 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:29:44,449 -  * Restarting with stat
+2023-05-15 12:29:45,487 -  * Debugger is active!
+2023-05-15 12:29:45,491 -  * Debugger PIN: 109-203-584
+2023-05-15 12:29:47,874 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:29:47,955 -  * Restarting with stat
+2023-05-15 12:29:48,993 -  * Debugger is active!
+2023-05-15 12:29:48,995 -  * Debugger PIN: 109-203-584
+2023-05-15 12:30:05,289 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:30:05,372 -  * Restarting with stat
+2023-05-15 12:30:23,442 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-15 12:30:23,442 - [33mPress CTRL+C to quit[0m
+2023-05-15 12:30:23,442 -  * Restarting with stat
+2023-05-15 12:30:24,518 -  * Debugger is active!
+2023-05-15 12:30:24,527 -  * Debugger PIN: 109-203-584
+2023-05-15 12:30:33,501 - 127.0.0.1 - - [15/May/2023 12:30:33] "[35m[1mPOST /greet HTTP/1.1[0m" 500 -
+2023-05-15 12:30:33,776 - 127.0.0.1 - - [15/May/2023 12:30:33] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:30:33,782 - 127.0.0.1 - - [15/May/2023 12:30:33] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-15 12:30:33,799 - 127.0.0.1 - - [15/May/2023 12:30:33] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-15 12:30:33,840 - 127.0.0.1 - - [15/May/2023 12:30:33] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-15 12:32:19,652 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 12:32:19,741 -  * Restarting with stat
+2023-05-15 12:41:22,076 -  * Restarting with stat
+2023-05-15 12:41:23,624 -  * Restarting with stat
+2023-05-15 12:45:02,178 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-15 12:45:02,178 - [33mPress CTRL+C to quit[0m
+2023-05-15 12:45:02,180 -  * Restarting with stat
+2023-05-15 12:45:04,008 -  * Debugger is active!
+2023-05-15 12:45:04,010 -  * Debugger PIN: 109-203-584
+2023-05-15 12:45:19,017 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-15 12:45:19,021 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-15 12:45:19,024 - 127.0.0.1 - - [15/May/2023 12:45:19] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:45:19,102 - 127.0.0.1 - - [15/May/2023 12:45:19] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:45:19,200 - 127.0.0.1 - - [15/May/2023 12:45:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:45:28,987 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 12:45:28,993 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 12:45:28,994 - 127.0.0.1 - - [15/May/2023 12:45:28] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:45:29,056 - 127.0.0.1 - - [15/May/2023 12:45:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:45:29,065 - 127.0.0.1 - - [15/May/2023 12:45:29] "[33mGET /r"https://yt3.ggpht.com/a-/AAuE7mATN5zLo2jxHhZNe9vLwuDDFMMiAa0hNdh2Ew=s900-mo-c-c0xffffffff-rj-k-no" HTTP/1.1[0m" 404 -
+2023-05-15 12:49:05,952 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 12:49:05,967 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 12:49:05,974 - 127.0.0.1 - - [15/May/2023 12:49:05] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:49:06,044 - 127.0.0.1 - - [15/May/2023 12:49:06] "[33mGET /r"C:/Users/Ki/OneDrive/Documents/Code/sayHello/templates/staffs_logo.jpg" HTTP/1.1[0m" 404 -
+2023-05-15 12:49:06,057 - 127.0.0.1 - - [15/May/2023 12:49:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 12:49:29,347 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:49:29,358 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:49:29,360 - 127.0.0.1 - - [15/May/2023 12:49:29] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:49:29,440 - 127.0.0.1 - - [15/May/2023 12:49:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:49:29,450 - 127.0.0.1 - - [15/May/2023 12:49:29] "[33mGET /r"C:/Users/Ki/OneDrive/Documents/Code/sayHello/templates/staffs_logo.jpg" HTTP/1.1[0m" 404 -
+2023-05-15 12:51:37,511 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:51:37,519 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:51:37,535 - 127.0.0.1 - - [15/May/2023 12:51:37] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:51:37,605 - 127.0.0.1 - - [15/May/2023 12:51:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:51:37,609 - 127.0.0.1 - - [15/May/2023 12:51:37] "[33mGET /r"https://raw.githubusercontent.com/MariyaSha/SimpleGreetingApp/main/logo.png" HTTP/1.1[0m" 404 -
+2023-05-15 12:51:44,270 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:51:44,286 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:51:44,287 - 127.0.0.1 - - [15/May/2023 12:51:44] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:51:44,375 - 127.0.0.1 - - [15/May/2023 12:51:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:51:44,375 - 127.0.0.1 - - [15/May/2023 12:51:44] "[33mGET /r"https://raw.githubusercontent.com/MariyaSha/SimpleGreetingApp/main/logo.png" HTTP/1.1[0m" 404 -
+2023-05-15 12:52:01,814 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:52:01,822 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:52:01,837 - 127.0.0.1 - - [15/May/2023 12:52:01] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:52:01,901 - 127.0.0.1 - - [15/May/2023 12:52:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:52:30,534 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:52:30,540 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:52:30,556 - 127.0.0.1 - - [15/May/2023 12:52:30] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:52:30,622 - 127.0.0.1 - - [15/May/2023 12:52:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:53:02,704 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:53:02,716 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:53:02,728 - 127.0.0.1 - - [15/May/2023 12:53:02] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:53:02,778 - 127.0.0.1 - - [15/May/2023 12:53:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:56:40,644 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:56:40,649 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:56:40,661 - 127.0.0.1 - - [15/May/2023 12:56:40] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:56:40,741 - 127.0.0.1 - - [15/May/2023 12:56:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 12:56:49,228 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:56:49,236 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:56:49,236 - 127.0.0.1 - - [15/May/2023 12:56:49] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:56:49,379 - 127.0.0.1 - - [15/May/2023 12:56:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 12:57:49,704 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:57:49,708 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 12:57:49,729 - 127.0.0.1 - - [15/May/2023 12:57:49] "POST /greet HTTP/1.1" 200 -
+2023-05-15 12:57:49,797 - 127.0.0.1 - - [15/May/2023 12:57:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:00:22,792 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:00:22,803 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:00:22,806 - 127.0.0.1 - - [15/May/2023 13:00:22] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:00:22,900 - 127.0.0.1 - - [15/May/2023 13:00:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:00:48,509 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-15 13:00:48,510 - [33mPress CTRL+C to quit[0m
+2023-05-15 13:00:48,511 -  * Restarting with stat
+2023-05-15 13:00:50,445 -  * Debugger is active!
+2023-05-15 13:00:50,461 -  * Debugger PIN: 109-203-584
+2023-05-15 13:00:57,103 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:00:57,127 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:00:57,142 - 127.0.0.1 - - [15/May/2023 13:00:57] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:00:57,342 - 127.0.0.1 - - [15/May/2023 13:00:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:01:48,790 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:01:48,796 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:01:48,796 - 127.0.0.1 - - [15/May/2023 13:01:48] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:01:48,877 - 127.0.0.1 - - [15/May/2023 13:01:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:01:59,601 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:01:59,609 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:01:59,609 - 127.0.0.1 - - [15/May/2023 13:01:59] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:01:59,693 - 127.0.0.1 - - [15/May/2023 13:01:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:02:26,741 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:02:26,752 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:02:26,752 - 127.0.0.1 - - [15/May/2023 13:02:26] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:02:26,829 - 127.0.0.1 - - [15/May/2023 13:02:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:03:43,583 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:03:43,593 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:03:43,607 - 127.0.0.1 - - [15/May/2023 13:03:43] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:03:43,668 - 127.0.0.1 - - [15/May/2023 13:03:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:04:06,108 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:04:06,111 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:04:06,111 - 127.0.0.1 - - [15/May/2023 13:04:06] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:04:06,183 - 127.0.0.1 - - [15/May/2023 13:04:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:07:52,637 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:07:52,640 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:07:52,655 - 127.0.0.1 - - [15/May/2023 13:07:52] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:07:52,737 - 127.0.0.1 - - [15/May/2023 13:07:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:07:57,888 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:07:57,888 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:07:57,888 - 127.0.0.1 - - [15/May/2023 13:07:57] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:07:57,962 - 127.0.0.1 - - [15/May/2023 13:07:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:10:40,490 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-15 13:10:40,859 -  * Restarting with stat
+2023-05-15 13:10:42,719 -  * Debugger is active!
+2023-05-15 13:10:42,722 -  * Debugger PIN: 109-203-584
+2023-05-15 13:10:50,341 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:10:50,351 - 127.0.0.1 - - [15/May/2023 13:10:50] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:10:50,540 - 127.0.0.1 - - [15/May/2023 13:10:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:10:56,307 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:10:56,309 - 127.0.0.1 - - [15/May/2023 13:10:56] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:10:56,377 - 127.0.0.1 - - [15/May/2023 13:10:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:11:08,612 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:11:08,614 - 127.0.0.1 - - [15/May/2023 13:11:08] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:11:08,681 - 127.0.0.1 - - [15/May/2023 13:11:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:18:00,257 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:18:00,273 - 127.0.0.1 - - [15/May/2023 13:18:00] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:18:00,355 - 127.0.0.1 - - [15/May/2023 13:18:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:21:25,208 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:21:25,208 - 127.0.0.1 - - [15/May/2023 13:21:25] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:21:25,281 - 127.0.0.1 - - [15/May/2023 13:21:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:23:12,871 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:23:12,888 - 127.0.0.1 - - [15/May/2023 13:23:12] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:23:12,950 - 127.0.0.1 - - [15/May/2023 13:23:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:24:59,070 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:24:59,089 - 127.0.0.1 - - [15/May/2023 13:24:59] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:24:59,151 - 127.0.0.1 - - [15/May/2023 13:24:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:25:07,714 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:25:07,717 - 127.0.0.1 - - [15/May/2023 13:25:07] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:25:07,770 - 127.0.0.1 - - [15/May/2023 13:25:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:25:35,513 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-15 13:25:35,513 - [33mPress CTRL+C to quit[0m
+2023-05-15 13:25:35,529 -  * Restarting with stat
+2023-05-15 13:25:37,300 -  * Debugger is active!
+2023-05-15 13:25:37,315 -  * Debugger PIN: 109-203-584
+2023-05-15 13:25:44,455 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-15 13:25:44,476 - 127.0.0.1 - - [15/May/2023 13:25:44] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:25:44,616 - 127.0.0.1 - - [15/May/2023 13:25:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:25:55,625 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:25:55,625 - 127.0.0.1 - - [15/May/2023 13:25:55] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:25:55,689 - 127.0.0.1 - - [15/May/2023 13:25:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:26:51,194 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:26:51,198 - 127.0.0.1 - - [15/May/2023 13:26:51] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:26:51,272 - 127.0.0.1 - - [15/May/2023 13:26:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:27:28,711 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:27:28,711 - 127.0.0.1 - - [15/May/2023 13:27:28] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:27:28,784 - 127.0.0.1 - - [15/May/2023 13:27:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:28:04,140 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:28:04,140 - 127.0.0.1 - - [15/May/2023 13:28:04] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:28:04,213 - 127.0.0.1 - - [15/May/2023 13:28:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:30:23,321 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:30:23,321 - 127.0.0.1 - - [15/May/2023 13:30:23] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:30:23,421 - 127.0.0.1 - - [15/May/2023 13:30:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:31:04,585 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:31:04,585 - 127.0.0.1 - - [15/May/2023 13:31:04] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:31:04,712 - 127.0.0.1 - - [15/May/2023 13:31:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:32:55,582 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:32:55,587 - 127.0.0.1 - - [15/May/2023 13:32:55] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:32:55,670 - 127.0.0.1 - - [15/May/2023 13:32:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:33:42,398 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:33:42,403 - 127.0.0.1 - - [15/May/2023 13:33:42] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:33:42,499 - 127.0.0.1 - - [15/May/2023 13:33:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:33:47,331 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:33:47,333 - 127.0.0.1 - - [15/May/2023 13:33:47] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:33:47,392 - 127.0.0.1 - - [15/May/2023 13:33:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-15 13:34:24,405 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:34:24,406 - 127.0.0.1 - - [15/May/2023 13:34:24] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:34:24,481 - 127.0.0.1 - - [15/May/2023 13:34:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:38:13,942 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:38:13,942 - 127.0.0.1 - - [15/May/2023 13:38:13] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:38:14,012 - 127.0.0.1 - - [15/May/2023 13:38:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:39:25,229 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:39:25,231 - 127.0.0.1 - - [15/May/2023 13:39:25] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:39:25,291 - 127.0.0.1 - - [15/May/2023 13:39:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:41:05,298 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:41:05,300 - 127.0.0.1 - - [15/May/2023 13:41:05] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:41:05,362 - 127.0.0.1 - - [15/May/2023 13:41:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:41:32,736 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:41:32,739 - 127.0.0.1 - - [15/May/2023 13:41:32] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:41:32,816 - 127.0.0.1 - - [15/May/2023 13:41:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-15 13:41:59,113 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-15 13:41:59,116 - 127.0.0.1 - - [15/May/2023 13:41:59] "POST /greet HTTP/1.1" 200 -
+2023-05-15 13:41:59,188 - 127.0.0.1 - - [15/May/2023 13:41:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 10:09:48,631 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 10:09:48,632 - [33mPress CTRL+C to quit[0m
+2023-05-16 10:09:48,638 -  * Restarting with stat
+2023-05-16 10:09:50,290 -  * Debugger is active!
+2023-05-16 10:09:50,290 -  * Debugger PIN: 109-203-584
+2023-05-16 10:31:54,194 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 10:31:54,195 - [33mPress CTRL+C to quit[0m
+2023-05-16 10:31:54,201 -  * Restarting with stat
+2023-05-16 10:31:55,763 -  * Debugger is active!
+2023-05-16 10:31:55,768 -  * Debugger PIN: 109-203-584
+2023-05-16 10:35:31,576 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\chat_functions.py', reloading
+2023-05-16 10:35:31,819 -  * Restarting with stat
+2023-05-16 10:35:33,434 -  * Debugger is active!
+2023-05-16 10:35:33,434 -  * Debugger PIN: 109-203-584
+2023-05-16 10:41:54,424 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 10:41:54,425 - [33mPress CTRL+C to quit[0m
+2023-05-16 10:41:54,434 -  * Restarting with stat
+2023-05-16 10:41:55,880 -  * Debugger is active!
+2023-05-16 10:41:55,882 -  * Debugger PIN: 205-333-873
+2023-05-16 10:43:38,616 - 127.0.0.1 - - [16/May/2023 10:43:38] "[33mGET / HTTP/1.1[0m" 404 -
+2023-05-16 10:43:38,798 - 127.0.0.1 - - [16/May/2023 10:43:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-16 10:43:49,821 - 127.0.0.1 - - [16/May/2023 10:43:49] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-16 10:43:50,010 - 127.0.0.1 - - [16/May/2023 10:43:50] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:43:50,024 - 127.0.0.1 - - [16/May/2023 10:43:50] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:43:50,074 - 127.0.0.1 - - [16/May/2023 10:43:50] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:43:50,140 - 127.0.0.1 - - [16/May/2023 10:43:50] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:44:22,873 - 127.0.0.1 - - [16/May/2023 10:44:22] "GET /hello HTTP/1.1" 200 -
+2023-05-16 10:44:22,951 - 127.0.0.1 - - [16/May/2023 10:44:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:44:33,013 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-16 10:44:33,014 - 127.0.0.1 - - [16/May/2023 10:44:33] "POST /greet HTTP/1.1" 200 -
+2023-05-16 10:44:33,069 - 127.0.0.1 - - [16/May/2023 10:44:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:46:00,503 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 10:46:00,503 - 127.0.0.1 - - [16/May/2023 10:46:00] "POST /greet HTTP/1.1" 200 -
+2023-05-16 10:46:00,568 - 127.0.0.1 - - [16/May/2023 10:46:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 10:46:29,534 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:46:29,791 -  * Restarting with stat
+2023-05-16 10:46:31,452 -  * Debugger is active!
+2023-05-16 10:46:31,459 -  * Debugger PIN: 205-333-873
+2023-05-16 10:46:35,354 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:46:35,639 -  * Restarting with stat
+2023-05-16 10:46:37,594 -  * Debugger is active!
+2023-05-16 10:46:37,601 -  * Debugger PIN: 205-333-873
+2023-05-16 10:47:18,175 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\university_chatbot.py', reloading
+2023-05-16 10:47:18,461 -  * Restarting with stat
+2023-05-16 10:47:20,177 -  * Debugger is active!
+2023-05-16 10:47:20,180 -  * Debugger PIN: 205-333-873
+2023-05-16 10:47:34,620 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\university_chatbot.py', reloading
+2023-05-16 10:47:34,933 -  * Restarting with stat
+2023-05-16 10:47:37,028 -  * Debugger is active!
+2023-05-16 10:47:37,028 -  * Debugger PIN: 205-333-873
+2023-05-16 10:48:48,732 - 127.0.0.1 - - [16/May/2023 10:48:48] "[33mPOST /greet HTTP/1.1[0m" 404 -
+2023-05-16 10:48:59,151 - 127.0.0.1 - - [16/May/2023 10:48:59] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:48:59,360 - 127.0.0.1 - - [16/May/2023 10:48:59] "GET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-16 10:48:59,372 - 127.0.0.1 - - [16/May/2023 10:48:59] "GET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-16 10:48:59,408 - 127.0.0.1 - - [16/May/2023 10:48:59] "GET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-16 10:48:59,453 - 127.0.0.1 - - [16/May/2023 10:48:59] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:49:50,913 - 127.0.0.1 - - [16/May/2023 10:49:50] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:49:50,980 - 127.0.0.1 - - [16/May/2023 10:49:50] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:49:50,985 - 127.0.0.1 - - [16/May/2023 10:49:50] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:49:51,011 - 127.0.0.1 - - [16/May/2023 10:49:51] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:49:51,031 - 127.0.0.1 - - [16/May/2023 10:49:51] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:49:53,518 - 127.0.0.1 - - [16/May/2023 10:49:53] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:49:53,573 - 127.0.0.1 - - [16/May/2023 10:49:53] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:49:53,576 - 127.0.0.1 - - [16/May/2023 10:49:53] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:49:53,604 - 127.0.0.1 - - [16/May/2023 10:49:53] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:49:53,624 - 127.0.0.1 - - [16/May/2023 10:49:53] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:51:57,741 - 127.0.0.1 - - [16/May/2023 10:51:57] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:51:57,805 - 127.0.0.1 - - [16/May/2023 10:51:57] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:51:57,826 - 127.0.0.1 - - [16/May/2023 10:51:57] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:51:57,870 - 127.0.0.1 - - [16/May/2023 10:51:57] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:51:57,894 - 127.0.0.1 - - [16/May/2023 10:51:57] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:51:59,196 - 127.0.0.1 - - [16/May/2023 10:51:59] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:51:59,262 - 127.0.0.1 - - [16/May/2023 10:51:59] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:51:59,269 - 127.0.0.1 - - [16/May/2023 10:51:59] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:51:59,301 - 127.0.0.1 - - [16/May/2023 10:51:59] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:51:59,326 - 127.0.0.1 - - [16/May/2023 10:51:59] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:52:06,725 - 127.0.0.1 - - [16/May/2023 10:52:06] "[33mGET / HTTP/1.1[0m" 404 -
+2023-05-16 10:52:19,270 - 127.0.0.1 - - [16/May/2023 10:52:19] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:52:19,358 - 127.0.0.1 - - [16/May/2023 10:52:19] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:52:19,363 - 127.0.0.1 - - [16/May/2023 10:52:19] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:52:19,394 - 127.0.0.1 - - [16/May/2023 10:52:19] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:53:12,196 - 127.0.0.1 - - [16/May/2023 10:53:12] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:53:12,298 - 127.0.0.1 - - [16/May/2023 10:53:12] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:53:12,309 - 127.0.0.1 - - [16/May/2023 10:53:12] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:53:12,342 - 127.0.0.1 - - [16/May/2023 10:53:12] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:53:12,374 - 127.0.0.1 - - [16/May/2023 10:53:12] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:54:51,383 - 127.0.0.1 - - [16/May/2023 10:54:51] "[35m[1mGET /chatbot HTTP/1.1[0m" 500 -
+2023-05-16 10:54:51,437 - 127.0.0.1 - - [16/May/2023 10:54:51] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:54:51,446 - 127.0.0.1 - - [16/May/2023 10:54:51] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:54:51,475 - 127.0.0.1 - - [16/May/2023 10:54:51] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:54:51,494 - 127.0.0.1 - - [16/May/2023 10:54:51] "[36mGET /chatbot?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:55:00,866 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:55:01,098 -  * Restarting with stat
+2023-05-16 10:55:02,522 -  * Debugger is active!
+2023-05-16 10:55:02,524 -  * Debugger PIN: 205-333-873
+2023-05-16 10:55:19,277 - 127.0.0.1 - - [16/May/2023 10:55:19] "[33mGET /chatbot HTTP/1.1[0m" 404 -
+2023-05-16 10:55:22,743 - 127.0.0.1 - - [16/May/2023 10:55:22] "[33mGET /tgreet HTTP/1.1[0m" 404 -
+2023-05-16 10:55:30,971 - 127.0.0.1 - - [16/May/2023 10:55:30] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-16 10:55:31,142 - 127.0.0.1 - - [16/May/2023 10:55:31] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:55:31,155 - 127.0.0.1 - - [16/May/2023 10:55:31] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:55:31,183 - 127.0.0.1 - - [16/May/2023 10:55:31] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:55:31,203 - 127.0.0.1 - - [16/May/2023 10:55:31] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:56:14,108 - 127.0.0.1 - - [16/May/2023 10:56:14] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-16 10:56:14,165 - 127.0.0.1 - - [16/May/2023 10:56:14] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:56:14,165 - 127.0.0.1 - - [16/May/2023 10:56:14] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:56:14,203 - 127.0.0.1 - - [16/May/2023 10:56:14] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:56:14,222 - 127.0.0.1 - - [16/May/2023 10:56:14] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:56:17,611 - 127.0.0.1 - - [16/May/2023 10:56:17] "GET /hello HTTP/1.1" 200 -
+2023-05-16 10:56:17,674 - 127.0.0.1 - - [16/May/2023 10:56:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:56:29,020 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 10:56:29,021 - 127.0.0.1 - - [16/May/2023 10:56:29] "POST /greet HTTP/1.1" 200 -
+2023-05-16 10:56:29,083 - 127.0.0.1 - - [16/May/2023 10:56:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:56:52,569 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:56:52,809 -  * Restarting with stat
+2023-05-16 10:56:54,266 -  * Debugger is active!
+2023-05-16 10:56:54,268 -  * Debugger PIN: 205-333-873
+2023-05-16 10:56:56,551 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:56:56,780 -  * Restarting with stat
+2023-05-16 10:56:58,225 -  * Debugger is active!
+2023-05-16 10:56:58,227 -  * Debugger PIN: 205-333-873
+2023-05-16 10:57:05,723 - 127.0.0.1 - - [16/May/2023 10:57:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-05-16 10:57:05,905 - 127.0.0.1 - - [16/May/2023 10:57:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-16 10:57:05,905 - 127.0.0.1 - - [16/May/2023 10:57:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-16 10:57:05,919 - 127.0.0.1 - - [16/May/2023 10:57:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-16 10:57:05,958 - 127.0.0.1 - - [16/May/2023 10:57:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:57:21,987 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:57:22,214 -  * Restarting with stat
+2023-05-16 10:57:23,688 -  * Debugger is active!
+2023-05-16 10:57:23,690 -  * Debugger PIN: 205-333-873
+2023-05-16 10:57:25,838 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 10:57:26,062 -  * Restarting with stat
+2023-05-16 10:58:32,044 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 10:58:32,044 - [33mPress CTRL+C to quit[0m
+2023-05-16 10:58:32,044 -  * Restarting with stat
+2023-05-16 10:58:33,457 -  * Debugger is active!
+2023-05-16 10:58:33,460 -  * Debugger PIN: 205-333-873
+2023-05-16 10:58:42,297 - 127.0.0.1 - - [16/May/2023 10:58:42] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-16 10:58:42,501 - 127.0.0.1 - - [16/May/2023 10:58:42] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 10:58:42,503 - 127.0.0.1 - - [16/May/2023 10:58:42] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:58:42,559 - 127.0.0.1 - - [16/May/2023 10:58:42] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:58:42,582 - 127.0.0.1 - - [16/May/2023 10:58:42] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 10:58:47,804 - 127.0.0.1 - - [16/May/2023 10:58:47] "GET / HTTP/1.1" 200 -
+2023-05-16 10:58:47,876 - 127.0.0.1 - - [16/May/2023 10:58:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 10:59:21,585 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 10:59:21,585 - 127.0.0.1 - - [16/May/2023 10:59:21] "POST /greet HTTP/1.1" 200 -
+2023-05-16 10:59:21,646 - 127.0.0.1 - - [16/May/2023 10:59:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:11:15,951 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:11:16,311 -  * Restarting with stat
+2023-05-16 11:11:18,150 -  * Debugger is active!
+2023-05-16 11:11:18,153 -  * Debugger PIN: 205-333-873
+2023-05-16 11:11:25,946 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:11:26,183 -  * Restarting with stat
+2023-05-16 11:12:10,393 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 11:12:10,394 - [33mPress CTRL+C to quit[0m
+2023-05-16 11:12:10,395 -  * Restarting with stat
+2023-05-16 11:12:11,838 -  * Debugger is active!
+2023-05-16 11:12:11,840 -  * Debugger PIN: 205-333-873
+2023-05-16 11:12:19,369 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 11:12:19,374 - 127.0.0.1 - - [16/May/2023 11:12:19] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:12:19,507 - 127.0.0.1 - - [16/May/2023 11:12:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:12:42,933 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 11:12:42,935 - 127.0.0.1 - - [16/May/2023 11:12:42] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:12:42,983 - 127.0.0.1 - - [16/May/2023 11:12:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:12:49,404 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 11:12:49,405 - 127.0.0.1 - - [16/May/2023 11:12:49] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:12:49,458 - 127.0.0.1 - - [16/May/2023 11:12:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:12:55,564 - True - what if im late  - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-16 11:12:55,564 - 127.0.0.1 - - [16/May/2023 11:12:55] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:12:55,619 - 127.0.0.1 - - [16/May/2023 11:12:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:13:43,716 - True - what if im late  - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-16 11:13:43,717 - 127.0.0.1 - - [16/May/2023 11:13:43] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:13:43,781 - 127.0.0.1 - - [16/May/2023 11:13:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 11:26:32,111 - True - what if im late  - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-16 11:26:32,120 - 127.0.0.1 - - [16/May/2023 11:26:32] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:26:32,197 - 127.0.0.1 - - [16/May/2023 11:26:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:37:54,006 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:37:54,328 -  * Restarting with stat
+2023-05-16 11:37:56,110 -  * Debugger is active!
+2023-05-16 11:37:56,114 -  * Debugger PIN: 205-333-873
+2023-05-16 11:38:11,061 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:38:11,311 -  * Restarting with stat
+2023-05-16 11:38:40,997 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 11:38:40,998 - [33mPress CTRL+C to quit[0m
+2023-05-16 11:38:40,999 -  * Restarting with stat
+2023-05-16 11:38:42,587 -  * Debugger is active!
+2023-05-16 11:38:42,593 -  * Debugger PIN: 205-333-873
+2023-05-16 11:38:48,813 - True - what if im late  - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-16 11:38:48,818 - 127.0.0.1 - - [16/May/2023 11:38:48] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:38:48,955 - 127.0.0.1 - - [16/May/2023 11:38:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:39:01,070 - False - hi - hi - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:39:01,070 - 127.0.0.1 - - [16/May/2023 11:39:01] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:39:01,122 - 127.0.0.1 - - [16/May/2023 11:39:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:40:24,301 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:40:24,534 -  * Restarting with stat
+2023-05-16 11:44:47,070 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 11:44:47,070 - [33mPress CTRL+C to quit[0m
+2023-05-16 11:44:47,072 -  * Restarting with stat
+2023-05-16 11:44:48,856 -  * Debugger is active!
+2023-05-16 11:44:48,856 -  * Debugger PIN: 205-333-873
+2023-05-16 11:44:55,289 - False - hi - hi - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:44:55,300 - 127.0.0.1 - - [16/May/2023 11:44:55] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:44:55,427 - 127.0.0.1 - - [16/May/2023 11:44:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:45:00,796 - 127.0.0.1 - - [16/May/2023 11:45:00] "POST /clear_history HTTP/1.1" 200 -
+2023-05-16 11:45:00,854 - 127.0.0.1 - - [16/May/2023 11:45:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:45:04,588 - 127.0.0.1 - - [16/May/2023 11:45:04] "POST /clear_history HTTP/1.1" 200 -
+2023-05-16 11:45:04,656 - 127.0.0.1 - - [16/May/2023 11:45:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:45:15,667 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:45:15,919 -  * Restarting with stat
+2023-05-16 11:45:17,658 -  * Debugger is active!
+2023-05-16 11:45:17,660 -  * Debugger PIN: 205-333-873
+2023-05-16 11:47:07,529 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:47:07,781 -  * Restarting with stat
+2023-05-16 11:47:09,221 -  * Debugger is active!
+2023-05-16 11:47:09,224 -  * Debugger PIN: 205-333-873
+2023-05-16 11:47:43,086 - 127.0.0.1 - - [16/May/2023 11:47:43] "[33mPOST /clear_history HTTP/1.1[0m" 404 -
+2023-05-16 11:47:51,248 - 127.0.0.1 - - [16/May/2023 11:47:51] "[33mGET / HTTP/1.1[0m" 404 -
+2023-05-16 11:48:10,656 - 127.0.0.1 - - [16/May/2023 11:48:10] "GET /greet HTTP/1.1" 200 -
+2023-05-16 11:48:10,801 - 127.0.0.1 - - [16/May/2023 11:48:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:48:14,981 - 127.0.0.1 - - [16/May/2023 11:48:14] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:48:15,031 - 127.0.0.1 - - [16/May/2023 11:48:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:48:16,126 - 127.0.0.1 - - [16/May/2023 11:48:16] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:48:16,177 - 127.0.0.1 - - [16/May/2023 11:48:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:48:19,744 - False - hi - hi - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:48:19,745 - 127.0.0.1 - - [16/May/2023 11:48:19] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:48:19,797 - 127.0.0.1 - - [16/May/2023 11:48:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:48:22,834 - 127.0.0.1 - - [16/May/2023 11:48:22] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:48:22,897 - 127.0.0.1 - - [16/May/2023 11:48:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:49:43,858 - 127.0.0.1 - - [16/May/2023 11:49:43] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:49:43,914 - 127.0.0.1 - - [16/May/2023 11:49:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:49:48,148 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:49:48,149 - 127.0.0.1 - - [16/May/2023 11:49:48] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:49:48,234 - 127.0.0.1 - - [16/May/2023 11:49:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:52:51,124 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:52:51,127 - 127.0.0.1 - - [16/May/2023 11:52:51] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:52:51,189 - 127.0.0.1 - - [16/May/2023 11:52:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 11:52:56,192 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:52:56,192 - 127.0.0.1 - - [16/May/2023 11:52:56] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:52:56,249 - 127.0.0.1 - - [16/May/2023 11:52:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:52:59,896 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:52:59,897 - 127.0.0.1 - - [16/May/2023 11:52:59] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:52:59,951 - 127.0.0.1 - - [16/May/2023 11:52:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:53:52,831 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:53:52,845 - 127.0.0.1 - - [16/May/2023 11:53:52] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:53:52,912 - 127.0.0.1 - - [16/May/2023 11:53:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:54:12,880 - False - juice - juice - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:54:12,882 - 127.0.0.1 - - [16/May/2023 11:54:12] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:54:12,944 - 127.0.0.1 - - [16/May/2023 11:54:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:57:03,193 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:57:03,437 -  * Restarting with stat
+2023-05-16 11:57:10,912 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 11:57:10,915 - [33mPress CTRL+C to quit[0m
+2023-05-16 11:57:10,916 -  * Restarting with stat
+2023-05-16 11:57:12,769 -  * Debugger is active!
+2023-05-16 11:57:12,773 -  * Debugger PIN: 205-333-873
+2023-05-16 11:57:15,630 - 127.0.0.1 - - [16/May/2023 11:57:15] "[35m[1mPOST /greet HTTP/1.1[0m" 500 -
+2023-05-16 11:57:15,809 - 127.0.0.1 - - [16/May/2023 11:57:15] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:57:15,813 - 127.0.0.1 - - [16/May/2023 11:57:15] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-16 11:57:15,862 - 127.0.0.1 - - [16/May/2023 11:57:15] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 11:57:15,883 - 127.0.0.1 - - [16/May/2023 11:57:15] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-16 11:57:37,823 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:57:38,065 -  * Restarting with stat
+2023-05-16 11:57:39,661 -  * Debugger is active!
+2023-05-16 11:57:39,664 -  * Debugger PIN: 205-333-873
+2023-05-16 11:57:44,965 - False - juice - juice - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:57:44,971 - 127.0.0.1 - - [16/May/2023 11:57:44] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:57:45,106 - 127.0.0.1 - - [16/May/2023 11:57:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:58:48,382 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 11:58:48,599 -  * Restarting with stat
+2023-05-16 11:58:50,301 -  * Debugger is active!
+2023-05-16 11:58:50,303 -  * Debugger PIN: 205-333-873
+2023-05-16 11:59:03,923 - False - juice - juice - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:59:03,928 - 127.0.0.1 - - [16/May/2023 11:59:03] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:59:04,050 - 127.0.0.1 - - [16/May/2023 11:59:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 11:59:07,201 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 11:59:07,202 - 127.0.0.1 - - [16/May/2023 11:59:07] "POST /greet HTTP/1.1" 200 -
+2023-05-16 11:59:07,269 - 127.0.0.1 - - [16/May/2023 11:59:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:00:19,474 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:00:19,488 - 127.0.0.1 - - [16/May/2023 12:00:19] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:00:19,542 - 127.0.0.1 - - [16/May/2023 12:00:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:00:21,950 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:00:21,950 - 127.0.0.1 - - [16/May/2023 12:00:21] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:00:22,007 - 127.0.0.1 - - [16/May/2023 12:00:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:00:25,261 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:00:25,262 - 127.0.0.1 - - [16/May/2023 12:00:25] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:00:25,315 - 127.0.0.1 - - [16/May/2023 12:00:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:03:08,930 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:03:08,931 - 127.0.0.1 - - [16/May/2023 12:03:08] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:03:08,994 - 127.0.0.1 - - [16/May/2023 12:03:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 12:04:31,559 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:04:31,575 - 127.0.0.1 - - [16/May/2023 12:04:31] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:04:31,619 - 127.0.0.1 - - [16/May/2023 12:04:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:05:16,356 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:05:16,357 - 127.0.0.1 - - [16/May/2023 12:05:16] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:05:16,417 - 127.0.0.1 - - [16/May/2023 12:05:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 12:06:04,915 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:06:04,915 - 127.0.0.1 - - [16/May/2023 12:06:04] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:06:04,969 - 127.0.0.1 - - [16/May/2023 12:06:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 12:06:43,543 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:06:43,553 - 127.0.0.1 - - [16/May/2023 12:06:43] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:06:43,602 - 127.0.0.1 - - [16/May/2023 12:06:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:06:54,198 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:06:54,199 - 127.0.0.1 - - [16/May/2023 12:06:54] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:06:54,252 - 127.0.0.1 - - [16/May/2023 12:06:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:09:43,326 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:09:43,327 - 127.0.0.1 - - [16/May/2023 12:09:43] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:09:43,380 - 127.0.0.1 - - [16/May/2023 12:09:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:09:46,592 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:09:46,592 - 127.0.0.1 - - [16/May/2023 12:09:46] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:09:46,649 - 127.0.0.1 - - [16/May/2023 12:09:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:09:47,130 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:09:47,131 - 127.0.0.1 - - [16/May/2023 12:09:47] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:09:47,187 - 127.0.0.1 - - [16/May/2023 12:09:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:09:48,257 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:09:48,258 - 127.0.0.1 - - [16/May/2023 12:09:48] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:09:48,314 - 127.0.0.1 - - [16/May/2023 12:09:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:10:09,981 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:10:09,986 - 127.0.0.1 - - [16/May/2023 12:10:09] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:10:10,050 - 127.0.0.1 - - [16/May/2023 12:10:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:10:16,330 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:10:16,331 - 127.0.0.1 - - [16/May/2023 12:10:16] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:10:16,400 - 127.0.0.1 - - [16/May/2023 12:10:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:10:41,178 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 12:10:41,571 -  * Restarting with stat
+2023-05-16 12:10:43,028 -  * Debugger is active!
+2023-05-16 12:10:43,030 -  * Debugger PIN: 205-333-873
+2023-05-16 12:10:46,790 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 12:10:47,011 -  * Restarting with stat
+2023-05-16 12:10:48,584 -  * Debugger is active!
+2023-05-16 12:10:48,587 -  * Debugger PIN: 205-333-873
+2023-05-16 12:10:53,722 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 12:10:53,949 -  * Restarting with stat
+2023-05-16 12:10:55,367 -  * Debugger is active!
+2023-05-16 12:10:55,367 -  * Debugger PIN: 205-333-873
+2023-05-16 12:11:04,176 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:11:04,183 - 127.0.0.1 - - [16/May/2023 12:11:04] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:11:04,298 - 127.0.0.1 - - [16/May/2023 12:11:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:11:10,243 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:11:10,243 - 127.0.0.1 - - [16/May/2023 12:11:10] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:11:10,299 - 127.0.0.1 - - [16/May/2023 12:11:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:11:47,371 -  * Detected change in 'c:\\Users\\Ki\\OneDrive\\Documents\\Code\\sayHello\\app.py', reloading
+2023-05-16 12:11:47,601 -  * Restarting with stat
+2023-05-16 12:11:49,218 -  * Debugger is active!
+2023-05-16 12:11:49,223 -  * Debugger PIN: 205-333-873
+2023-05-16 12:11:54,433 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:11:54,438 - 127.0.0.1 - - [16/May/2023 12:11:54] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:11:54,550 - 127.0.0.1 - - [16/May/2023 12:11:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:11:56,451 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:11:56,451 - 127.0.0.1 - - [16/May/2023 12:11:56] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:11:56,508 - 127.0.0.1 - - [16/May/2023 12:11:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:11:58,062 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:11:58,063 - 127.0.0.1 - - [16/May/2023 12:11:58] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:11:58,118 - 127.0.0.1 - - [16/May/2023 12:11:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:11:59,648 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 12:11:59,649 - 127.0.0.1 - - [16/May/2023 12:11:59] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:11:59,706 - 127.0.0.1 - - [16/May/2023 12:11:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 12:12:06,175 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 12:12:06,176 - 127.0.0.1 - - [16/May/2023 12:12:06] "POST /greet HTTP/1.1" 200 -
+2023-05-16 12:12:06,231 - 127.0.0.1 - - [16/May/2023 12:12:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
