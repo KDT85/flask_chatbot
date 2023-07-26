@@ -6,25 +6,20 @@ app.secret_key = "manbearpig_MUDMAN888"
 
 chat_history = []
 
-# @app.route("/hello")
-# def index():
-#     flash("what's your name?")
-#     return render_template("index.html", chat_history=chat_history)
-# @app.route("/")
-# def index():
-#     return render_template("index.html", chat_history=chat_history)
-
-@app.route("/greet", methods=['POST', 'GET'])
-def greeter():
-    if 'name_input' not in request.form:
+@app.route("/")
+@app.route("/chat", methods=['POST', 'GET'])
+def chat():
+    if 'question_input' not in request.form:
         return render_template("index.html", chat_history=chat_history)
-    user_input = request.form['name_input']
+    if chat_history == []:
+        chat_history.append("Hello, I'm the Staffs Uni chatbot. How can I help you?")
+    user_input = request.form['question_input']
     chat_history.append(user_input)
     response = university_chatbot.process_user_input(user_input)
     chat_history.append(response)
     flash(response)
     # if request.form.get('clear_history'):
-    #     chat_history.clear()
+    #     return render_template("index.html", chat_history=[])
        
     return render_template("index.html", chat_history=chat_history)
 

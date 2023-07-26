@@ -20,17 +20,23 @@
     {{ message }}
     {% endfor %}
     </textarea>
-    <form action="greet" method="post">
+    <form action="chat" method="post">
         {% for message in get_flashed_messages()%}
         <p>{{message}}</p>
         {% endfor %}
         <br>
         <input type="hidden" name="clear_history" value="1">
-        <input type="submit" value="Clear Chat History">
+        <div>
+            <input type="submit" value="Clear Chat History">
+        </div>
         <br>
-        <input type="text" name="name_input">
+        <div>
+            <input type="text" name="question_input">
+        </div>
         <br>
-        <input type="submit" value="Ask" id="greet">
+        <div>
+            <input type="submit" value="Ask" id="ask">
+        </div>
     </form>
 </body>
 

@@ -615,3 +615,317 @@
 2023-05-16 12:12:06,175 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
 2023-05-16 12:12:06,176 - 127.0.0.1 - - [16/May/2023 12:12:06] "POST /greet HTTP/1.1" 200 -
 2023-05-16 12:12:06,231 - 127.0.0.1 - - [16/May/2023 12:12:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 13:58:47,351 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 13:58:47,352 - [33mPress CTRL+C to quit[0m
+2023-05-16 13:58:47,354 -  * Restarting with stat
+2023-05-16 13:58:49,284 -  * Debugger is active!
+2023-05-16 13:58:49,289 -  * Debugger PIN: 205-333-873
+2023-05-16 13:58:58,029 - 127.0.0.1 - - [16/May/2023 13:58:58] "[33mGET / HTTP/1.1[0m" 404 -
+2023-05-16 13:58:58,226 - 127.0.0.1 - - [16/May/2023 13:58:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-16 13:59:55,970 - 127.0.0.1 - - [16/May/2023 13:59:55] "[33mGET / HTTP/1.1[0m" 404 -
+2023-05-16 14:00:04,084 - 127.0.0.1 - - [16/May/2023 14:00:04] "GET /greet HTTP/1.1" 200 -
+2023-05-16 14:00:04,247 - 127.0.0.1 - - [16/May/2023 14:00:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-05-16 14:00:06,545 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:00:06,546 - 127.0.0.1 - - [16/May/2023 14:00:06] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:00:06,611 - 127.0.0.1 - - [16/May/2023 14:00:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:00:11,046 - True - Are calculators allowed? - Are calculator allowed ? - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 14:00:11,047 - 127.0.0.1 - - [16/May/2023 14:00:11] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:00:11,108 - 127.0.0.1 - - [16/May/2023 14:00:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:00:14,107 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:00:14,108 - 127.0.0.1 - - [16/May/2023 14:00:14] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:00:14,163 - 127.0.0.1 - - [16/May/2023 14:00:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:07:28,688 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:07:28,690 - 127.0.0.1 - - [16/May/2023 14:07:28] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:07:28,752 - 127.0.0.1 - - [16/May/2023 14:07:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:07:47,200 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-16 14:07:47,497 -  * Restarting with stat
+2023-05-16 14:09:56,742 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-16 14:09:56,743 - [33mPress CTRL+C to quit[0m
+2023-05-16 14:09:56,744 -  * Restarting with stat
+2023-05-16 14:09:58,494 -  * Debugger is active!
+2023-05-16 14:09:58,494 -  * Debugger PIN: 205-333-873
+2023-05-16 14:10:01,968 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-16 14:10:02,228 -  * Restarting with stat
+2023-05-16 14:10:03,853 -  * Debugger is active!
+2023-05-16 14:10:03,856 -  * Debugger PIN: 205-333-873
+2023-05-16 14:10:07,581 - 127.0.0.1 - - [16/May/2023 14:10:07] "GET / HTTP/1.1" 200 -
+2023-05-16 14:10:07,729 - 127.0.0.1 - - [16/May/2023 14:10:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:10:09,916 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:10:09,917 - 127.0.0.1 - - [16/May/2023 14:10:09] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:10:09,996 - 127.0.0.1 - - [16/May/2023 14:10:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:10:15,995 - True - are calculators llowed - calculator llowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 14:10:15,997 - 127.0.0.1 - - [16/May/2023 14:10:15] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:10:16,059 - 127.0.0.1 - - [16/May/2023 14:10:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:10:18,738 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:10:18,739 - 127.0.0.1 - - [16/May/2023 14:10:18] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:10:18,797 - 127.0.0.1 - - [16/May/2023 14:10:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:10:25,146 - True - are calculators allowed - calculator allowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 14:10:25,147 - 127.0.0.1 - - [16/May/2023 14:10:25] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:10:25,209 - 127.0.0.1 - - [16/May/2023 14:10:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:10:26,994 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:10:26,995 - 127.0.0.1 - - [16/May/2023 14:10:26] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:10:27,047 - 127.0.0.1 - - [16/May/2023 14:10:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:10:43,346 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-16 14:10:43,616 -  * Restarting with stat
+2023-05-16 14:10:45,235 -  * Debugger is active!
+2023-05-16 14:10:45,237 -  * Debugger PIN: 205-333-873
+2023-05-16 14:10:55,933 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-16 14:10:55,938 - 127.0.0.1 - - [16/May/2023 14:10:55] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:10:56,059 - 127.0.0.1 - - [16/May/2023 14:10:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:11:00,348 - True - are calculators allowed - calculator allowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-16 14:11:00,350 - 127.0.0.1 - - [16/May/2023 14:11:00] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:11:00,405 - 127.0.0.1 - - [16/May/2023 14:11:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:11:06,429 - True - what if im late  - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-16 14:11:06,429 - 127.0.0.1 - - [16/May/2023 14:11:06] "POST /greet HTTP/1.1" 200 -
+2023-05-16 14:11:06,484 - 127.0.0.1 - - [16/May/2023 14:11:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-16 14:11:23,472 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-16 14:11:23,692 -  * Restarting with stat
+2023-05-16 14:11:25,201 -  * Debugger is active!
+2023-05-16 14:11:25,201 -  * Debugger PIN: 205-333-873
+2023-05-17 10:21:57,839 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-17 10:21:57,840 - [33mPress CTRL+C to quit[0m
+2023-05-17 10:21:57,849 -  * Restarting with stat
+2023-05-17 10:21:59,758 -  * Debugger is active!
+2023-05-17 10:21:59,760 -  * Debugger PIN: 205-333-873
+2023-05-17 10:22:07,721 - False - hi - hi - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 10:22:07,743 - 127.0.0.1 - - [17/May/2023 10:22:07] "POST /greet HTTP/1.1" 200 -
+2023-05-17 10:22:07,920 - 127.0.0.1 - - [17/May/2023 10:22:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:22:25,866 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-17 10:22:25,867 - 127.0.0.1 - - [17/May/2023 10:22:25] "POST /greet HTTP/1.1" 200 -
+2023-05-17 10:22:25,924 - 127.0.0.1 - - [17/May/2023 10:22:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:22:42,501 - True - are calculators allowed - calculator allowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-17 10:22:42,502 - 127.0.0.1 - - [17/May/2023 10:22:42] "POST /greet HTTP/1.1" 200 -
+2023-05-17 10:22:42,557 - 127.0.0.1 - - [17/May/2023 10:22:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:22:45,222 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 10:22:45,222 - 127.0.0.1 - - [17/May/2023 10:22:45] "POST /greet HTTP/1.1" 200 -
+2023-05-17 10:22:45,278 - 127.0.0.1 - - [17/May/2023 10:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:27:48,157 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:27:48,384 -  * Restarting with stat
+2023-05-17 10:27:49,871 -  * Debugger is active!
+2023-05-17 10:27:49,872 -  * Debugger PIN: 205-333-873
+2023-05-17 10:28:39,231 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:28:39,482 -  * Restarting with stat
+2023-05-17 10:28:40,982 -  * Debugger is active!
+2023-05-17 10:28:40,982 -  * Debugger PIN: 205-333-873
+2023-05-17 10:28:50,515 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:28:50,765 -  * Restarting with stat
+2023-05-17 10:28:52,493 -  * Debugger is active!
+2023-05-17 10:28:52,496 -  * Debugger PIN: 205-333-873
+2023-05-17 10:28:54,748 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:28:54,961 -  * Restarting with stat
+2023-05-17 10:28:56,440 -  * Debugger is active!
+2023-05-17 10:28:56,443 -  * Debugger PIN: 205-333-873
+2023-05-17 10:28:58,838 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:28:59,087 -  * Restarting with stat
+2023-05-17 10:29:00,644 -  * Debugger is active!
+2023-05-17 10:29:00,644 -  * Debugger PIN: 205-333-873
+2023-05-17 10:29:06,938 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:29:07,188 -  * Restarting with stat
+2023-05-17 10:29:08,759 -  * Debugger is active!
+2023-05-17 10:29:08,763 -  * Debugger PIN: 205-333-873
+2023-05-17 10:29:16,360 - 127.0.0.1 - - [17/May/2023 10:29:16] "[35m[1mGET /chat HTTP/1.1[0m" 500 -
+2023-05-17 10:29:16,568 - 127.0.0.1 - - [17/May/2023 10:29:16] "GET /chat?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-05-17 10:29:16,584 - 127.0.0.1 - - [17/May/2023 10:29:16] "GET /chat?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-05-17 10:29:16,643 - 127.0.0.1 - - [17/May/2023 10:29:16] "GET /chat?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-05-17 10:29:16,668 - 127.0.0.1 - - [17/May/2023 10:29:16] "[36mGET /chat?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:30:10,553 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-17 10:30:10,553 - [33mPress CTRL+C to quit[0m
+2023-05-17 10:30:10,554 -  * Restarting with stat
+2023-05-17 10:30:12,021 -  * Debugger is active!
+2023-05-17 10:30:12,024 -  * Debugger PIN: 205-333-873
+2023-05-17 10:30:22,862 - 127.0.0.1 - - [17/May/2023 10:30:22] "[33mPOST /greet HTTP/1.1[0m" 404 -
+2023-05-17 10:30:29,207 - 127.0.0.1 - - [17/May/2023 10:30:29] "[33mPOST /greet HTTP/1.1[0m" 404 -
+2023-05-17 10:30:34,633 - 127.0.0.1 - - [17/May/2023 10:30:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-05-17 10:30:34,821 - 127.0.0.1 - - [17/May/2023 10:30:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:30:34,829 - 127.0.0.1 - - [17/May/2023 10:30:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-17 10:30:34,867 - 127.0.0.1 - - [17/May/2023 10:30:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:30:34,884 - 127.0.0.1 - - [17/May/2023 10:30:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:31:14,944 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:31:15,167 -  * Restarting with stat
+2023-05-17 10:31:16,850 -  * Debugger is active!
+2023-05-17 10:31:16,852 -  * Debugger PIN: 205-333-873
+2023-05-17 10:31:24,200 - 127.0.0.1 - - [17/May/2023 10:31:24] "[33mPOST /greet HTTP/1.1[0m" 404 -
+2023-05-17 10:31:32,688 - 127.0.0.1 - - [17/May/2023 10:31:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-05-17 10:31:32,876 - 127.0.0.1 - - [17/May/2023 10:31:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-17 10:31:32,881 - 127.0.0.1 - - [17/May/2023 10:31:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:31:32,910 - 127.0.0.1 - - [17/May/2023 10:31:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:31:36,726 - 127.0.0.1 - - [17/May/2023 10:31:36] "[35m[1mGET /chat HTTP/1.1[0m" 500 -
+2023-05-17 10:31:36,795 - 127.0.0.1 - - [17/May/2023 10:31:36] "[36mGET /chat?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:31:36,802 - 127.0.0.1 - - [17/May/2023 10:31:36] "[36mGET /chat?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-17 10:31:36,830 - 127.0.0.1 - - [17/May/2023 10:31:36] "[36mGET /chat?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:31:50,518 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:31:50,754 -  * Restarting with stat
+2023-05-17 10:31:52,273 -  * Debugger is active!
+2023-05-17 10:31:52,276 -  * Debugger PIN: 205-333-873
+2023-05-17 10:32:00,289 - 127.0.0.1 - - [17/May/2023 10:32:00] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-17 10:32:00,465 - 127.0.0.1 - - [17/May/2023 10:32:00] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-17 10:32:00,475 - 127.0.0.1 - - [17/May/2023 10:32:00] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:32:00,505 - 127.0.0.1 - - [17/May/2023 10:32:00] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:32:00,525 - 127.0.0.1 - - [17/May/2023 10:32:00] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:32:16,031 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:32:16,278 -  * Restarting with stat
+2023-05-17 10:32:17,852 -  * Debugger is active!
+2023-05-17 10:32:17,855 -  * Debugger PIN: 205-333-873
+2023-05-17 10:32:21,721 - 127.0.0.1 - - [17/May/2023 10:32:21] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-17 10:32:21,896 - 127.0.0.1 - - [17/May/2023 10:32:21] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-17 10:32:21,896 - 127.0.0.1 - - [17/May/2023 10:32:21] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:32:21,925 - 127.0.0.1 - - [17/May/2023 10:32:21] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:32:21,942 - 127.0.0.1 - - [17/May/2023 10:32:21] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:32:23,496 - 127.0.0.1 - - [17/May/2023 10:32:23] "[35m[1mGET /greet HTTP/1.1[0m" 500 -
+2023-05-17 10:32:23,557 - 127.0.0.1 - - [17/May/2023 10:32:23] "[36mGET /greet?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:32:23,565 - 127.0.0.1 - - [17/May/2023 10:32:23] "[36mGET /greet?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-05-17 10:32:23,592 - 127.0.0.1 - - [17/May/2023 10:32:23] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:32:23,607 - 127.0.0.1 - - [17/May/2023 10:32:23] "[36mGET /greet?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-05-17 10:32:38,627 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:32:38,856 -  * Restarting with stat
+2023-05-17 10:32:40,383 -  * Debugger is active!
+2023-05-17 10:32:40,386 -  * Debugger PIN: 205-333-873
+2023-05-17 10:32:45,580 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:32:45,796 -  * Restarting with stat
+2023-05-17 10:32:47,328 -  * Debugger is active!
+2023-05-17 10:32:47,329 -  * Debugger PIN: 205-333-873
+2023-05-17 10:32:49,456 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:32:49,673 -  * Restarting with stat
+2023-05-17 10:32:51,047 -  * Debugger is active!
+2023-05-17 10:32:51,049 -  * Debugger PIN: 205-333-873
+2023-05-17 10:32:57,383 - 127.0.0.1 - - [17/May/2023 10:32:57] "GET /greet HTTP/1.1" 200 -
+2023-05-17 10:32:57,529 - 127.0.0.1 - - [17/May/2023 10:32:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:33:07,850 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 10:33:08,096 -  * Restarting with stat
+2023-05-17 10:33:09,526 -  * Debugger is active!
+2023-05-17 10:33:09,527 -  * Debugger PIN: 205-333-873
+2023-05-17 10:33:12,799 - 127.0.0.1 - - [17/May/2023 10:33:12] "GET / HTTP/1.1" 200 -
+2023-05-17 10:33:12,946 - 127.0.0.1 - - [17/May/2023 10:33:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:33:21,998 - 127.0.0.1 - - [17/May/2023 10:33:21] "GET / HTTP/1.1" 200 -
+2023-05-17 10:33:22,043 - 127.0.0.1 - - [17/May/2023 10:33:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:33:26,118 - 127.0.0.1 - - [17/May/2023 10:33:26] "GET /chat HTTP/1.1" 200 -
+2023-05-17 10:33:26,186 - 127.0.0.1 - - [17/May/2023 10:33:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:44:53,786 - True - are calculators allowed - calculator allowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-17 10:44:53,786 - 127.0.0.1 - - [17/May/2023 10:44:53] "POST /chat HTTP/1.1" 200 -
+2023-05-17 10:44:53,854 - 127.0.0.1 - - [17/May/2023 10:44:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:44:56,945 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 10:44:56,946 - 127.0.0.1 - - [17/May/2023 10:44:56] "POST /chat HTTP/1.1" 200 -
+2023-05-17 10:44:57,043 - 127.0.0.1 - - [17/May/2023 10:44:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 10:44:58,604 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 10:44:58,605 - 127.0.0.1 - - [17/May/2023 10:44:58] "POST /chat HTTP/1.1" 200 -
+2023-05-17 10:44:58,658 - 127.0.0.1 - - [17/May/2023 10:44:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:05:19,768 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 11:05:20,015 -  * Restarting with stat
+2023-05-17 11:05:28,924 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-17 11:05:28,924 - [33mPress CTRL+C to quit[0m
+2023-05-17 11:05:28,930 -  * Restarting with stat
+2023-05-17 11:05:30,436 -  * Debugger is active!
+2023-05-17 11:05:30,441 -  * Debugger PIN: 205-333-873
+2023-05-17 11:05:56,217 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:05:56,238 - 127.0.0.1 - - [17/May/2023 11:05:56] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:05:56,374 - 127.0.0.1 - - [17/May/2023 11:05:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:06:02,571 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:06:02,572 - 127.0.0.1 - - [17/May/2023 11:06:02] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:06:02,634 - 127.0.0.1 - - [17/May/2023 11:06:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:06:12,883 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:06:12,884 - 127.0.0.1 - - [17/May/2023 11:06:12] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:06:12,940 - 127.0.0.1 - - [17/May/2023 11:06:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:07:31,075 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 11:07:31,341 -  * Restarting with stat
+2023-05-17 11:07:33,133 -  * Debugger is active!
+2023-05-17 11:07:33,136 -  * Debugger PIN: 205-333-873
+2023-05-17 11:07:36,838 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 11:07:37,076 -  * Restarting with stat
+2023-05-17 11:07:38,711 -  * Debugger is active!
+2023-05-17 11:07:38,713 -  * Debugger PIN: 205-333-873
+2023-05-17 11:07:42,553 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 11:07:42,826 -  * Restarting with stat
+2023-05-17 11:07:45,671 -  * Debugger is active!
+2023-05-17 11:07:45,674 -  * Debugger PIN: 205-333-873
+2023-05-17 11:08:44,447 - 127.0.0.1 - - [17/May/2023 11:08:44] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:08:44,596 - 127.0.0.1 - - [17/May/2023 11:08:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:08:46,595 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:08:46,596 - 127.0.0.1 - - [17/May/2023 11:08:46] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:08:46,646 - 127.0.0.1 - - [17/May/2023 11:08:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:08:47,691 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:08:47,692 - 127.0.0.1 - - [17/May/2023 11:08:47] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:08:47,751 - 127.0.0.1 - - [17/May/2023 11:08:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:08:48,511 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:08:48,512 - 127.0.0.1 - - [17/May/2023 11:08:48] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:08:48,566 - 127.0.0.1 - - [17/May/2023 11:08:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:09:57,901 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:09:57,917 - 127.0.0.1 - - [17/May/2023 11:09:57] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:09:57,979 - 127.0.0.1 - - [17/May/2023 11:09:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:10:00,219 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:10:00,220 - 127.0.0.1 - - [17/May/2023 11:10:00] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:10:00,281 - 127.0.0.1 - - [17/May/2023 11:10:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:10:02,392 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:10:02,393 - 127.0.0.1 - - [17/May/2023 11:10:02] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:10:02,451 - 127.0.0.1 - - [17/May/2023 11:10:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:10:06,509 - 127.0.0.1 - - [17/May/2023 11:10:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:10:08,396 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:10:08,397 - 127.0.0.1 - - [17/May/2023 11:10:08] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:10:08,470 - 127.0.0.1 - - [17/May/2023 11:10:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:10:12,664 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:10:12,665 - 127.0.0.1 - - [17/May/2023 11:10:12] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:10:12,796 - 127.0.0.1 - - [17/May/2023 11:10:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 11:13:57,502 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 11:13:57,739 -  * Restarting with stat
+2023-05-17 11:13:59,209 -  * Debugger is active!
+2023-05-17 11:13:59,211 -  * Debugger PIN: 205-333-873
+2023-05-17 11:14:02,854 -  * Detected change in 'c:\\Users\\Ki\\OneDrive - Staffordshire University\\Documents\\GitHub\\flask_chatbot\\app.py', reloading
+2023-05-17 11:14:03,095 -  * Restarting with stat
+2023-05-17 11:14:29,725 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-17 11:14:29,725 - [33mPress CTRL+C to quit[0m
+2023-05-17 11:14:29,725 -  * Restarting with stat
+2023-05-17 11:14:31,160 -  * Debugger is active!
+2023-05-17 11:14:31,160 -  * Debugger PIN: 205-333-873
+2023-05-17 11:14:45,030 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 11:14:45,036 - 127.0.0.1 - - [17/May/2023 11:14:45] "POST /chat HTTP/1.1" 200 -
+2023-05-17 11:14:45,177 - 127.0.0.1 - - [17/May/2023 11:14:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:10:44,574 - True - are calculators allowed - calculator allowed - Calculators are allowed during exams but only certain models are permitted.
+2023-05-17 12:10:44,577 - 127.0.0.1 - - [17/May/2023 12:10:44] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:10:44,647 - 127.0.0.1 - - [17/May/2023 12:10:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:10:54,727 - True - what if im late - im late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-17 12:10:54,728 - 127.0.0.1 - - [17/May/2023 12:10:54] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:10:54,803 - 127.0.0.1 - - [17/May/2023 12:10:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:12:20,765 - True - what if i tarry to long - tarry long - The length of the exam periods and whether there are breaks between exams varies by department.
+2023-05-17 12:12:20,765 - 127.0.0.1 - - [17/May/2023 12:12:20] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:12:20,835 - 127.0.0.1 - - [17/May/2023 12:12:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:12:55,560 - True - what if arrive late  - arrive late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-17 12:12:55,560 - 127.0.0.1 - - [17/May/2023 12:12:55] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:12:55,636 - 127.0.0.1 - - [17/May/2023 12:12:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:10,347 - True - what if i show up late  - show late - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-17 12:13:10,347 - 127.0.0.1 - - [17/May/2023 12:13:10] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:10,426 - 127.0.0.1 - - [17/May/2023 12:13:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:33,784 - True - what if i arrive outside of the allotted time - arrive outside allotted time - If you arrive late to an exam, you may not be permitted to sit the paper depending on how late you are.
+2023-05-17 12:13:33,787 - 127.0.0.1 - - [17/May/2023 12:13:33] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:33,863 - 127.0.0.1 - - [17/May/2023 12:13:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:51,559 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:51,559 - 127.0.0.1 - - [17/May/2023 12:13:51] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:51,636 - 127.0.0.1 - - [17/May/2023 12:13:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:52,173 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:52,173 - 127.0.0.1 - - [17/May/2023 12:13:52] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:52,248 - 127.0.0.1 - - [17/May/2023 12:13:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:52,612 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:52,612 - 127.0.0.1 - - [17/May/2023 12:13:52] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:52,686 - 127.0.0.1 - - [17/May/2023 12:13:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:53,431 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:53,431 - 127.0.0.1 - - [17/May/2023 12:13:53] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:53,510 - 127.0.0.1 - - [17/May/2023 12:13:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:54,315 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:54,315 - 127.0.0.1 - - [17/May/2023 12:13:54] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:54,392 - 127.0.0.1 - - [17/May/2023 12:13:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:54,937 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:54,938 - 127.0.0.1 - - [17/May/2023 12:13:54] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:55,005 - 127.0.0.1 - - [17/May/2023 12:13:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:13:55,507 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:13:55,507 - 127.0.0.1 - - [17/May/2023 12:13:55] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:13:55,587 - 127.0.0.1 - - [17/May/2023 12:13:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:15:14,139 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:15:14,143 - 127.0.0.1 - - [17/May/2023 12:15:14] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:15:14,212 - 127.0.0.1 - - [17/May/2023 12:15:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-05-17 12:15:14,442 - False -  -  - I'm sorry, I couldn't understand your question. Can you please try again?
+2023-05-17 12:15:14,442 - 127.0.0.1 - - [17/May/2023 12:15:14] "POST /chat HTTP/1.1" 200 -
+2023-05-17 12:15:14,513 - 127.0.0.1 - - [17/May/2023 12:15:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
